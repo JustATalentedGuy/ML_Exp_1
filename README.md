@@ -2,13 +2,14 @@
 
 This repository contains a comprehensive exploratory data analysis (EDA) of five distinct datasets. The objective of this assignment is to perform essential preprocessing, correlation analysis, and data transformations required for machine learning tasks.
 
-All analysis is documented in a single Jupyter Notebook: `EDA_Assignment.ipynb`.
+All analysis is documented in a single Jupyter Notebook: `ML_exp_1.ipynb`.
 
 ---
 
 ## 📁 Files Included
 
 - `ML_exp_1.ipynb` — Main notebook with all analyses and code.
+- `ML_exp_
 - `datasets/` — Folder containing CSVs or original datasets used.
 
 ---
@@ -17,11 +18,11 @@ All analysis is documented in a single Jupyter Notebook: `EDA_Assignment.ipynb`.
 
 | Dataset                              | ML Task Type               | Description                                                                 |
 |--------------------------------------|----------------------------|-----------------------------------------------------------------------------|
-| Iris Dataset                         | Multi-class Classification | Classify iris species based on sepal and petal measurements.               |
-| Loan Amount Prediction               | Regression                 | Predict loan amount based on applicant data.                   |
-| Predicting Diabetes (Pima Dataset)   | Binary Classification       | Predict if a person has diabetes using medical records.                    |
-| Email Spam Classification            | Binary Classification       | Classify emails as spam or not using bag-of-words representation.          |
-| Handwritten Character Recognition    | Multi-class Classification | Classify digit images from MNIST dataset using pixel values.               |
+| Iris Dataset                         | Multi-class Classification | Classify iris species based on sepal and petal measurements.                |
+| Loan Amount Prediction               | Regression                 | Predict loan amount based on applicant data.                                |
+| Predicting Diabetes (Pima Dataset)   | Binary Classification      | Predict if a person has diabetes using medical records.                     |
+| Email Spam Classification            | Binary Classification      | Classify emails as spam or not using bag-of-words representation.           |
+| Handwritten Character Recognition    | Multi-class Classification | Classify hand-written character images using pixel values.                  |
 
 ---
 
@@ -69,7 +70,6 @@ This assignment helped reinforce the following machine learning concepts:
 - Data preprocessing and cleaning
 - Feature selection based on correlation and importance
 - Normalization techniques and when to apply them
-- Basic natural language processing (NLP) for spam classification
 - Model-ready transformation of raw data
 
 ---
