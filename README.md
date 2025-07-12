@@ -9,7 +9,7 @@ All analysis is documented in a single Jupyter Notebook: `ML_exp_1.ipynb`.
 ## 📁 Files Included
 
 - `ML_exp_1.ipynb` — Main notebook with all analyses and code.
-- `ML_exp_
+- `ML_exp_1_documentation` — Documentation of the assignment.
 - `datasets/` — Folder containing CSVs or original datasets used.
 
 ---
