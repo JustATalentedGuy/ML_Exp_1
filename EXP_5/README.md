@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
 # Perceptron vs Multilayer Perceptron: A/B Comparison for Handwritten Character Classification
 
 ## Project Overview
@@ -83,8 +81,8 @@ Loss: L = -1/N Σ Σ y_i,k log(ŷ_i,k)
 
 **Best Configuration:**
 
-- Hidden Layers: (256, 64)
-- Activation: ReLU
+- Hidden Layers: (128,)
+- Activation: tanh
 - Learning Rate: 0.001
 - Optimizer: Adam
 
@@ -95,7 +93,7 @@ Loss: L = -1/N Σ Σ y_i,k log(ŷ_i,k)
 
 | Metric | PLA | MLP |
 | :-- | :-- | :-- |
-| **Test Accuracy** | **33%** | **86%** |
+| **Test Accuracy** | **14%** | **33%** |
 | Model Complexity | Linear | Nonlinear |
 | Training Speed | Fast | Moderate |
 | Convergence | Simple | Stable with Adam |
@@ -121,7 +119,7 @@ Loss: L = -1/N Σ Σ y_i,k log(ŷ_i,k)
 
 ### MLP Advantages
 
-**Nonlinear Modeling:** Hidden layers with ReLU activations enable approximation of complex, nonlinear functions necessary for image pattern recognition.
+**Nonlinear Modeling:** Hidden layers with ReLU and tanh activations enable approximation of complex, nonlinear functions necessary for image pattern recognition.
 
 **Hierarchical Learning:** Multiple layers allow learning of hierarchical feature representations from low-level edges to high-level character shapes.
 
@@ -129,7 +127,7 @@ Loss: L = -1/N Σ Σ y_i,k log(ŷ_i,k)
 
 1. **Activation Function:** ReLU provided faster convergence and avoided vanishing gradients compared to sigmoid/tanh
 2. **Optimizer Choice:** Adam significantly outperformed SGD with adaptive learning rates and better stability
-3. **Architecture Depth:** Moderate depth (256, 64) provided optimal balance between capacity and generalization
+3. **Architecture Depth:** (128) provided optimal balance between capacity and generalization
 4. **Learning Rate:** 0.001 balanced convergence speed with training stability
 
 ### Overfitting Mitigation
